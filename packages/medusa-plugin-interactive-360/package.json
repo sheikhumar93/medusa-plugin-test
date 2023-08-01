@@ -26,7 +26,8 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^16.1.4",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "typescript": "^4.9.5"
   },
   "peerDependencies": {
     "@medusajs/admin": "7.0.0-beta-20230721103805",
@@ -41,6 +42,8 @@
     "@medusajs/medusa": "1.12.4-beta-20230721103805",
     "medusa-interfaces": "^1.3.7",
     "typeorm": "^0.3.16",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.14.1",
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/preset-typescript": "^7.21.4",

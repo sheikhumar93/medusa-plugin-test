@@ -1,7 +1,10 @@
 import { BeforeInsert, Entity, ManyToOne, Column, JoinColumn } from "typeorm";
-import { DbAwareColumn, BaseEntity } from "@medusajs/medusa";
-import { Product } from "@medusajs/medusa";
-import { generateEntityId } from "@medusajs/utils";
+import {
+  DbAwareColumn,
+  BaseEntity,
+  Product,
+  generateEntityId,
+} from "@medusajs/medusa";
 
 @Entity({ name: "threesixty_view" })
 export class ThreesixtyView extends BaseEntity {

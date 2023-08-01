@@ -1,4 +1,4 @@
-const { DataSource } = require("typeorm");
+import { DataSource } from "typeorm"
 const AppDataSource = new DataSource({
   type: "postgres",
   port: 5432,
